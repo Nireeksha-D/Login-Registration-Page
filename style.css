@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .illustration {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .illustration img {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #111;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .input-group i {
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .options {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+#submit {
+    background-color: #4d97f3;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-icons {
+    text-align: center;
+    margin-top: 145px;
+  }
+  
+  .social-icons a {
+    margin: 0 8px;
+    font-size: 20px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 4px;
+  }
+  
+  .social-icons a:nth-child(1) { background: #3b5998; } 
+  .social-icons a:nth-child(2) { background: #1da1f2; } 
+  .social-icons a:nth-child(3) { background: #db4437; } 
+
+  
+@media (min-width: 375px) and (max-width:865px){
+    .container{
+        flex-direction: column;
+    }
+    .illustration img {
+        width: 50%;
+        max-width: 350px;
+      }
+      .social-icons {
+        margin-top: 10px;
+      }
+
+}
+  
+@media (min-width: 200px) and (max-width:374px){
+    .container{
+        flex-direction: column;
+    }
+    .illustration img {
+        width: 50%;
+        max-width: 350px;
+      }
+      .social-icons {
+        margin-top: 10px;
+      }
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="illustration">
+      <img src="img2.jpg"/>
+      <p><a href="/index.html">Create an account</a></p>
+    </div>
+    <div class="form-container">
+      <h2>Sign up</h2>
+      <form action="" method="get" id="form-example">
+        <div class="input-group">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Your Name" id="name" required />
+        </div>
+        <div class="input-group">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password" id="password" />
+        </div>
+        <div class="options">
+          <label><input type="checkbox" /> Remember me</label>
+        </div>
+        <button type="submit" value="submit" id="submit" onclick="message();">Log In</button>
+      </form>
+
+      <div>
+      <div class="social-icons">
+        Or login with<a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
